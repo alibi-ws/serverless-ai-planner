@@ -63,7 +63,7 @@ npm run deploy
 Your worker will be deployed to a Cloudflare address like:
 
 ```
-https://ai-planner-worker.alireza78-bk.workers.dev/
+https://worker-ai-planner.alireza78-bk.workers.dev/
 ```
 
 ---
@@ -73,7 +73,7 @@ https://ai-planner-worker.alireza78-bk.workers.dev/
 Use the following `curl` command to test your worker:
 
 ```bash
-curl -X POST https://ai-planner-worker.alireza78-bk.workers.dev/ \
+curl -X POST https://worker-ai-planner.alireza78-bk.workers.dev/ \
   -H "Content-Type: application/json" \
   -d '{ "destination": "Paris, France", "durationDays": 2 }'
 ```
