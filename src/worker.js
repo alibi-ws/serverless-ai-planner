@@ -6,7 +6,7 @@ export default {
     async fetch(request, env, ctx) {
         // Define CORS header for access from Svelte app worker
         const corsHeaders = {
-        'Access-Control-Allow-Origin': 'https://my-svelte-app.alireza78-bk.workers.dev',
+        'Access-Control-Allow-Origin': 'https://worker-svelte.alireza78-bk.workers.dev',
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type',
         };
