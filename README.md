@@ -79,7 +79,3 @@ curl -X POST https://ai-planner-worker.alireza78-bk.workers.dev/ \
 ```
 
 ---
-
-## 📄 License
-
-MIT or your preferred license.
